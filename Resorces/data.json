@@ -1,0 +1,13 @@
+{
+  "name": "Sachin",
+  "email": "sachin.kumar@gmail.com",
+  "address": {
+    "city": "Talwara",
+    "town": "Talwara",
+    "state": {
+      "teh": "Mukerian",
+      "dist": "Hoshiarpur",
+      "state": "Punjab"
+    }
+  }
+}
