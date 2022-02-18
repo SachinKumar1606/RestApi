@@ -44,6 +44,7 @@ public class Base {
     }
 
     public void getResponseBody(String ext) {
+        logger.info("********** Checking the response Body **********");
         response = setup(ext);
         String responseBody = response.getBody().asString();
         logger.info("Response Body=>" + responseBody);
@@ -51,6 +52,7 @@ public class Base {
     }
 
     public void checkStatusCode(String ext){
+        logger.info("********** Checking the response Code **********");
         response = setup(ext);
         int responseStatusCode = response.getStatusCode();
         logger.info("Status Code is => " + responseStatusCode);
@@ -62,4 +64,14 @@ public class Base {
         }
     }
 
+    public void checkingResponseTime(String ext){
+        response = setup(ext);
+        logger.info("********** Checking the response time **********");
+        long responseTime=response.getTime();
+        logger.info("Response Time is:"+responseTime);
+
+        if(responseTime>2000)
+            logger.warn("Response time is greater then 2000");
+        Assert.assertTrue(responseTime>2000);
+    }
 }

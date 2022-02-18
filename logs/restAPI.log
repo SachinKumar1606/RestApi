@@ -310,3 +310,11 @@
 2022-02-17 19:20:28 INFO  RestAssuredAPITesting_StripeProject:31 - **************Started TC001_Get_All_Customers*************
 2022-02-17 19:20:29 INFO  RestAssuredAPITesting_StripeProject:56 - Status Code is => 200
 2022-02-17 19:20:29 INFO  RestAssuredAPITesting_StripeProject:58 - Query processed sucessfully......
+2022-02-17 19:27:44 INFO  RestAssuredAPITesting_StripeProject:68 - ********** Checking the response time **********
+2022-02-17 19:36:03 INFO  RestAssuredAPITesting_StripeProject:31 - **************Started TC001_Get_All_Customers*************
+2022-02-17 19:36:07 INFO  RestAssuredAPITesting_StripeProject:69 - ********** Checking the response time **********
+2022-02-17 19:36:07 INFO  RestAssuredAPITesting_StripeProject:71 - Response Time is:1710
+2022-02-17 19:41:21 INFO  RestAssuredAPITesting_StripeProject:31 - **************Started TC001_Get_All_Customers*************
+2022-02-17 19:41:25 INFO  RestAssuredAPITesting_StripeProject:69 - ********** Checking the response time **********
+2022-02-17 19:41:25 INFO  RestAssuredAPITesting_StripeProject:71 - Response Time is:2229
+2022-02-17 19:41:25 WARN  RestAssuredAPITesting_StripeProject:74 - Response time is greater then 2000
